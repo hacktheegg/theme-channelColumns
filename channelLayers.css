@@ -1,0 +1,32 @@
+/* Make the selected channel take up the entire width of the container */
+/* Column 1 (Server List) */
+.guilds-wrapper {
+    width: 20%; /* Adjust this value to set the width of the first column */
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Column 2 (First Server's Channels) */
+.channels-wrap {
+    width: 20%; /* Adjust this value to set the width of the second column */
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Column 3 (Second Server's Channels) */
+.channels-wrap {
+    width: 20%; /* Adjust this value to set the width of the third column */
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Column 4 (Selected Channel's Messages) */
+.messages-wrap {
+    width: 60%; /* Adjust this value to set the width of the fourth column */
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
